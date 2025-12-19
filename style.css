@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'NeoDonggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+/* 스타듀밸리 제목 */
+.font01{
+    font-family: 'NeoDonggeunmo';
+    font-size: 48px;
+    letter-spacing: 0px;
+    line-height: 48px;
+}
+/* 스타듀밸리 부연설명 */
+.font02{
+    font-family: 'NeoDonggeunmo';
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 32px;
+}
+/* 캐릭터 대사 */
+.font03{
+    font-family: 'NeoDonggeunmo';
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+/* 펠리컨 마을 제목 , 캐릭터 이름*/
+.font04{
+    font-family: 'NeoDonggeunmo';
+    font-size: 32px;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+/* 펠리컨 마을 설명 */
+.font05{
+    font-family: 'NeoDonggeunmo';
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 인덱스페이지 스타일 */
+.wrap00{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 10;
+}
+.wrap00 > a > img{
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+}
+.video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+}
+html, body{
+    overflow-x: hidden;
+}
+.a01{
+    position: relative;
+    width: 100%;
+    height: 730px;
+    background-image: url(img/a_bg.png);
+}
+.a01_01{
+    text-align: center;
+    color: #FFB700;
+    padding-top: 85px;
+}
+.a01_02{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 45px;
+}
+.a01_03{
+    text-align: center;
+    height: 156px;
+    padding-top: 46px;
+}
+.a01_04{
+    background-image: url(img/a02.png);
+    width: 339px;
+    height: 149px;
+    margin: auto;
+}
+.a01_04_01{
+    color: #000000;
+    text-align: center;
+    padding-top: 26px;
+}
+.b01{
+    position: relative;
+    width: 100%;
+    height: 514px;
+    background-image: url(img/b_bg.png);
+}
+.b01_01{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 49px;
+}
+.b01_02{
+    border-bottom: 1px solid #ffffff;
+    padding-top: 26px;
+    width: 80px;
+    margin: auto;
+}
+.b01_03{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 26px;
+}
+.b01_04{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 26px;
+}
+.b01_05{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 26px;
+}
+.b01_06{
+    text-align: center;
+    height: 37px;
+    padding-top: 6px;
+}
+.c01{
+    position: relative;
+    width: 100%;
+    height: 368px;
+    background-color: #A6D6AE;
+}
+.c01_01{
+    text-align: center;
+    height: 128px;
+    padding-top: 55px;
+}
+.c01_02{
+    background-image: url(img/c_02.png);
+    width: 339px;
+    height: 149px;
+    margin: auto;
+}
+.c01_02_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 39px;
+}
+.d01{
+    position: relative;
+    width: 100%;
+    height: 409px;
+    background-color: #FFAF77;
+}
+.d01_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 19px;
+}
+.d01_02{
+    text-align: center;
+    color: #323232;
+    padding-top: 6px;
+}
+.d01_03{
+    background-image: url(img/d_04.png);
+    width: 339px;
+    height: 175px;
+    margin: auto;
+}
+.d01_03_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 28px;
+}
+.d01_04{
+    width: 153px;
+    height: 134px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.d01_05{
+    width: 104px;
+    height: 81px;
+    position: absolute;
+    padding-top: 56px;
+    padding-left: 154px;
+}
+.d01_06{
+    width: 147px;
+    height: 147px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.e01{
+    position: relative;
+    width: 100%;
+    height: 409px;
+    background-color: #8B8B8B;
+}
+.e01_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 19px;
+}
+.e01_02{
+    text-align: center;
+    color: #323232;
+    padding-top: 6px;
+}
+.e01_03{
+    background-image: url(img/e_05.png);
+    width: 339px;
+    height: 175px;
+    margin: auto;
+}
+.e01_03_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 16px;
+}
+.e01_04{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 36px;
+}
+.e01_05{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 116px;
+}
+.e01_06{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 196px;
+}
+.e01_07{
+    width: 147px;
+    height: 147px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.f01{
+    position: relative;
+    width: 100%;
+    height: 409px;
+    background-color: #FFD0A3;
+}
+.f01_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 19px;
+}
+.f01_02{
+    text-align: center;
+    color: #323232;
+    padding-top: 6px;
+}
+.f01_03{
+    background-image: url(img/f_04.png);
+    width: 339px;
+    height: 175px;
+    margin: auto;
+}
+.f01_03_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 16px;
+}
+.f01_04{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 71px;
+}
+.f01_05{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 170px;
+}
+.f01_06{
+    width: 147px;
+    height: 152px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.g01{
+    position: relative;
+    width: 100%;
+    height: 409px;
+    background-color: #84A3ED;
+}
+.g01_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 19px;
+}
+.g01_02{
+    text-align: center;
+    color: #323232;
+    padding-top: 6px;
+}
+.g01_03{
+    background-image: url(img/g_04.png);
+    width: 339px;
+    height: 175px;
+    margin: auto;
+}
+.g01_03_01{
+    text-align: center;
+    color: #000000;
+    padding-top: 16px;
+}
+.g01_04{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    padding-top: 48px;
+    padding-left: 75px;
+}
+.g01_05{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 169px;
+}
+.g01_06{
+    width: 147px;
+    height: 147px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.h01{
+    position: relative;
+    width: 100%;
+    height: 307px;
+    background-image: url(img/h_bg.png);
+}
+.h01_01{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 23px;
+}
+.h01_02{
+    border-bottom: 1px solid #ffffff;
+    padding-top: 11px;
+    width: 80px;
+    margin: auto;
+}
+.h01_03{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 11px;
+}
+.h01_04{
+    border-bottom: 1px solid #ffffff;
+    padding-top: 11px;
+    width: 80px;
+    margin: auto;
+}
+.h01_05{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 11px;
+}
+.h01_06{
+    text-align: right;
+    color: #ffffff;
+    padding-right: 12px;
+    border: 0;
+}
+.i01{
+    position: relative;
+    width: 100%;
+    height: 133px;
+    background-color: #FFDE8B;
+}
+.i01_01{
+    text-align: center;
+    padding-top: 15px;
+}
